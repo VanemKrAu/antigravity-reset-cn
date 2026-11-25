@@ -282,9 +282,9 @@ def build_feed(events):
   <channel>
     <title>反重力额度重置（中文）</title>
     <link>https://vanemkrau.github.io/antigravity-reset-cn/</link>
-    <description>Google Antigravity（反重力）全员额度重置公告，自动翻译成中文，每 30 分钟同步一次。数据来自 agyresets.com 与 antigravityreset.online，非官方。</description>
+    <description>Google Antigravity（反重力）全员额度重置公告，自动翻译成中文，每 15 分钟同步一次。数据来自 agyresets.com 与 antigravityreset.online，非官方。</description>
     <language>zh-CN</language>
-    <ttl>30</ttl>
+    <ttl>15</ttl>
     <lastBuildDate>{now}</lastBuildDate>
     <atom:link href="https://vanemkrau.github.io/antigravity-reset-cn/feed.xml" rel="self" type="application/rss+xml"/>
 {chr(10).join(items)}
