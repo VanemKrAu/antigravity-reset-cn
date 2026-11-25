@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>简体中文订阅包 · 2026-11-26</title>
+    <dateCreated>Thu, 26 Nov 2026 00:30:00 +0800</dateCreated>
+    <ownerName>VanemKrAu</ownerName>
+  </head>
+  <body>
+    <outline text="AI 与反重力" title="AI 与反重力">
+      <outline type="rss" text="反重力额度重置（中文）" title="反重力额度重置（中文）" xmlUrl="https://antigravity-reset-cn.vanemwalker.workers.dev/feed.xml" htmlUrl="https://antigravity-reset-cn.vanemwalker.workers.dev/"/>
+      <outline type="rss" text="AIHOT" title="AIHOT" xmlUrl="https://aihot.news/feed.xml" htmlUrl="https://aihot.news/"/>
+      <outline type="rss" text="量子位" title="量子位" xmlUrl="https://www.qbitai.com/feed" htmlUrl="https://www.qbitai.com/"/>
+      <outline type="rss" text="极客公园" title="极客公园" xmlUrl="https://www.geekpark.net/rss" htmlUrl="https://www.geekpark.net/"/>
+      <outline type="rss" text="InfoQ 中文" title="InfoQ 中文" xmlUrl="https://www.infoq.cn/feed" htmlUrl="https://www.infoq.cn/"/>
+    </outline>
+    <outline text="科技新闻" title="科技新闻">
+      <outline type="rss" text="IT之家" title="IT之家" xmlUrl="https://www.ithome.com/rss/" htmlUrl="https://www.ithome.com/"/>
+      <outline type="rss" text="cnBeta" title="cnBeta" xmlUrl="https://www.cnbeta.com.tw/backend.php" htmlUrl="https://www.cnbeta.com.tw/"/>
+      <outline type="rss" text="Solidot 奇客" title="Solidot 奇客" xmlUrl="https://www.solidot.org/index.rss" htmlUrl="https://www.solidot.org/"/>
+      <outline type="rss" text="蓝点网" title="蓝点网" xmlUrl="https://www.landian.news/feed" htmlUrl="https://www.landian.news/"/>
+    </outline>
+    <outline text="中文时事" title="中文时事">
+      <outline type="rss" text="中国新闻网" title="中国新闻网" xmlUrl="https://www.chinanews.com.cn/rss/scroll-news.xml" htmlUrl="https://www.chinanews.com.cn/"/>
+      <outline type="rss" text="纽约时报中文网" title="纽约时报中文网" xmlUrl="https://cn.nytimes.com/rss/" htmlUrl="https://cn.nytimes.com/"/>
+      <outline type="rss" text="法国国际广播电台中文" title="法国国际广播电台中文" xmlUrl="https://www.rfi.fr/cn/rss" htmlUrl="https://www.rfi.fr/cn/"/>
+      <outline type="rss" text="FT 中文网" title="FT 中文网" xmlUrl="https://www.ftchinese.com/rss/news" htmlUrl="https://www.ftchinese.com/"/>
+      <outline type="rss" text="韩联社中文" title="韩联社中文" xmlUrl="https://cn.yna.co.kr/RSS/news.xml" htmlUrl="https://cn.yna.co.kr/"/>
+      <outline type="rss" text="联合国新闻中文" title="联合国新闻中文" xmlUrl="https://news.un.org/feed/subscribe/zh/news/all/rss.xml" htmlUrl="https://news.un.org/zh/"/>
+    </outline>
+    <outline text="深度与人文" title="深度与人文">
+      <outline type="rss" text="爱思想" title="爱思想" xmlUrl="https://www.aisixiang.com/rss" htmlUrl="https://www.aisixiang.com/"/>
+      <outline type="rss" text="一天世界" title="一天世界" xmlUrl="https://blog.yitianshijie.net/rss/" htmlUrl="https://blog.yitianshijie.net/"/>
+      <outline type="rss" text="知识分子" title="知识分子" xmlUrl="https://www.zhishifenzi.com/rss" htmlUrl="https://www.zhishifenzi.com/"/>
+      <outline type="rss" text="豆瓣书评" title="豆瓣书评" xmlUrl="https://www.douban.com/feed/review/book" htmlUrl="https://book.douban.com/"/>
+    </outline>
+    <outline text="独立博客" title="独立博客">
+      <outline type="rss" text="十年之约" title="十年之约" xmlUrl="https://www.foreverblog.cn/feed" htmlUrl="https://www.foreverblog.cn/"/>
+      <outline type="rss" text="胡涂说" title="胡涂说" xmlUrl="https://hutusi.com/feed" htmlUrl="https://hutusi.com/"/>
+      <outline type="rss" text="另一天" title="另一天" xmlUrl="https://anotherdayu.com/feed" htmlUrl="https://anotherdayu.com/"/>
+      <outline type="rss" text="Justin Yan" title="Justin Yan" xmlUrl="https://justinyan.me/feed" htmlUrl="https://justinyan.me/"/>
+      <outline type="rss" text="张鑫旭" title="张鑫旭" xmlUrl="https://www.zhangxinxu.com/wordpress/feed/" htmlUrl="https://www.zhangxinxu.com/"/>
+      <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml" htmlUrl="https://www.ruanyifeng.com/blog/"/>
+    </outline>
+    <outline text="游戏与亚文化" title="游戏与亚文化">
+      <outline type="rss" text="机核" title="机核" xmlUrl="https://www.gcores.com/rss" htmlUrl="https://www.gcores.com/"/>
+    </outline>
+    <outline text="工具与效率" title="工具与效率">
+      <outline type="rss" text="少数派" title="少数派" xmlUrl="https://sspai.com/feed" htmlUrl="https://sspai.com/"/>
+      <outline type="rss" text="小众软件" title="小众软件" xmlUrl="https://www.appinn.com/feed/" htmlUrl="https://www.appinn.com/"/>
+      <outline type="rss" text="异次元软件" title="异次元软件" xmlUrl="https://www.iplaysoft.com/feed" htmlUrl="https://www.iplaysoft.com/"/>
+    </outline>
+    <outline text="社区" title="社区">
+      <outline type="rss" text="V2EX" title="V2EX" xmlUrl="https://www.v2ex.com/index.xml" htmlUrl="https://www.v2ex.com/"/>
+      <outline type="rss" text="NodeSeek" title="NodeSeek" xmlUrl="https://rss.nodeseek.com/" htmlUrl="https://www.nodeseek.com/"/>
+    </outline>
+    <outline text="财经" title="财经">
+      <outline type="rss" text="华尔街见闻" title="华尔街见闻" xmlUrl="https://dedicated.wallstreetcn.com/rss.xml" htmlUrl="https://wallstreetcn.com/"/>
+      <outline type="rss" text="钛媒体" title="钛媒体" xmlUrl="https://www.tmtpost.com/rss.xml" htmlUrl="https://www.tmtpost.com/"/>
+    </outline>
+    <outline text="播客" title="播客">
+      <outline type="rss" text="声东击西" title="声东击西" xmlUrl="https://feeds.fireside.fm/shengdongjixi/rss" htmlUrl="https://etw.fm/"/>
+    </outline>
+  </body>
+</opml>
