@@ -60,6 +60,12 @@
     <code>https://cdn.jsdelivr.net/gh/VanemKrAu/antigravity-reset-cn@main/feed.xml</code>
   </div>
 
+  <div class="card" id="statusCard">
+    <div class="label">运行状态</div>
+    <div id="statusLine" style="font-size:15px">读取中…</div>
+    <div id="statusDetail" style="color:var(--dim);font-size:13px;margin-top:8px"></div>
+  </div>
+
   <footer>
     数据来自 <a class="url" style="display:inline" href="https://agyresets.com/">agyresets.com</a>
     与 antigravityreset.online，翻译用 MyMemory。
@@ -67,5 +73,35 @@
     非官方项目，与 Google 无关。
   </footer>
 </main>
+<script>
+(async () => {
+  const line = document.getElementById('statusLine');
+  const detail = document.getElementById('statusDetail');
+  const ago = ms => {
+    const m = Math.round(ms / 60000);
+    if (m < 1) return '刚刚';
+    if (m < 60) return m + ' 分钟前';
+    const h = Math.floor(m / 60);
+    if (h < 24) return h + ' 小时 ' + (m % 60) + ' 分钟前';
+    return Math.floor(h / 24) + ' 天前';
+  };
+  try {
+    const res = await fetch('./feed.xml?t=' + Date.now(), { cache: 'no-store' });
+    const txt = await res.text();
+    const doc = new DOMParser().parseFromString(txt, 'text/xml');
+    const build = doc.querySelector('lastBuildDate')?.textContent || '';
+    const items = doc.querySelectorAll('item');
+    const latest = items[0]?.querySelector('title')?.textContent || '';
+    const t = new Date(build);
+    const diff = Date.now() - t.getTime();
+    const ok = diff < 60 * 60 * 1000;
+    line.innerHTML = '<span class="dot" style="background:' + (ok ? 'var(--accent)' : '#c08a3e') + '"></span>'
+      + '上次生成：' + (isNaN(t) ? '未知' : t.toLocaleString('zh-CN', { hour12: false }) + '（' + ago(diff) + '）');
+    detail.textContent = '共 ' + items.length + ' 条记录' + (latest ? ' · 最新：' + latest : '');
+  } catch (e) {
+    line.textContent = '读取 feed 失败，稍后刷新再看';
+  }
+})();
+</script>
 </body>
 </html>
