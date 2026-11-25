@@ -43,25 +43,27 @@
 <body>
 <main>
   <h1>反重力额度重置 · 中文源</h1>
-  <p class="sub">Google Antigravity（反重力）全员额度重置公告，自动翻成中文，每 15 分钟同步。</p>
+  <p class="sub">Google Antigravity（反重力）全员额度重置公告，自动翻成中文。主线已迁移至 Cloudflare Workers，每 15 分钟同步。</p>
 
   <div class="card">
-    <div class="label"><span class="dot"></span>订阅地址</div>
-    <a class="url" href="./feed.xml">https://vanemkrau.github.io/antigravity-reset-cn/feed.xml</a>
+    <div class="label"><span class="dot"></span>主订阅地址（推荐）</div>
+    <a class="url" href="https://antigravity-reset-cn.vanemwalker.workers.dev/feed.xml">https://antigravity-reset-cn.vanemwalker.workers.dev/feed.xml</a>
     <ul>
       <li>标题直接写明「时间 · 范围 · 哪些模型被重置」</li>
       <li>正文是中文翻译，下面附英文原文和原帖链接</li>
-      <li>时间已经换算成北京时间</li>
+      <li>时间已经换算成北京时间（UTC+8）</li>
     </ul>
   </div>
 
   <div class="card">
-    <div class="label">备用地址</div>
-    <code>https://cdn.jsdelivr.net/gh/VanemKrAu/antigravity-reset-cn@main/feed.xml</code>
+    <div class="label">备份地址（GitHub Pages / jsDelivr）</div>
+    <a class="url" href="./feed.xml">https://vanemkrau.github.io/antigravity-reset-cn/feed.xml</a>
+    <code style="margin-top:8px">https://cdn.jsdelivr.net/gh/VanemKrAu/antigravity-reset-cn@main/feed.xml</code>
+    <p style="color:var(--dim);font-size:13px;margin:10px 0 0">注：GitHub Actions 定时构建仅作备份保留，日常订阅请使用上方 Cloudflare Workers 主地址。</p>
   </div>
 
   <div class="card" id="statusCard">
-    <div class="label">运行状态</div>
+    <div class="label">备份源状态（当前 Pages）</div>
     <div id="statusLine" style="font-size:15px">读取中…</div>
     <div id="statusDetail" style="color:var(--dim);font-size:13px;margin-top:8px"></div>
   </div>
